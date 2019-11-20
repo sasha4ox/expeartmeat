@@ -51,22 +51,14 @@
           <img src="./img/main.png" alt="meat" class="mainLogIn__left__img" />
         </div>
         <div class="mainLogIn__rigth">
-          <h1>Увійти</h1>
+          <h1>Реєстрація</h1>
           <h3 class="mainLogIn__rigth__about">
             Якщо ви являєтесь дає змогу бачити ціни продукціївикористовувати Lorem Ipsum, ви маєте
             упевнитись.
           </h3>
-          <h3 class="mainLogIn__rigth__social-description">Через соц. мережі</h3>
-          <div class="mainLogIn__rigth__wrapper-for-social">
-            <a href="#">
-              <img src="./img/facebookLogIn.svg" alt="face" />
-            </a>
-            <a href="#">
-              <img src="./img/googleLogIn.svg" alt="google" />
-            </a>
-          </div>
-          <h3 class="mainLogIn__rigth__profile">За допомогою профілю</h3>
           <form action="" class="mainLogIn__rigth__form">
+            <input type="text" name="name" id="" placeholder="Ваше Ім’я " />
+            <input type="text" name="lastName" id="" placeholder="Ваше Прізвище" />
             <input
               type="email"
               name="email"
@@ -74,13 +66,14 @@
               class="mainLogIn__rigth__profile__email"
               placeholder="Email"
             />
-            <input
-              type="password"
-              name="password"
-              id=""
-              class="mainLogIn__rigth__profile__password"
-              placeholder="Password"
-            />
+            <input type="tel" name="phone" id="" placeholder="Номер телефону" />
+            <select name="select">
+              <option value="value1">Значение 1</option>
+              <option value="value2" selected>Значение 2</option>
+              <option value="value3">Значение 3</option>
+            </select>
+            <input type="password" name="password" id="" placeholder="Пароль" />
+            <input type="password" name="repeatPassword" id="" placeholder="Повторіть пароль" />
             <button type="submit">Увійти</button>
           </form>
           <a href="#" class="mainLogIn__rigth__create">Cтворити профіль</a>

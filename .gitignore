@@ -1,4 +1,4 @@
 /node_modules
-*scss
-*js
-*json
+# *scss
+# *js
+# *json
